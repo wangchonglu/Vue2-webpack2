@@ -14,9 +14,15 @@ npm run build
 
 ```
 
-相关资料
-[Vue](http://cn.vuejs.org/).
-[Vue](http://vuejs-templates.github.io/webpack/).
-[vue-loader](http://vuejs.github.io/vue-loader).
-[vux组件库](https://vux.li/#/).
-[webpack](https://webpack.js.org/).
+## 相关资料
+[Vue](http://cn.vuejs.org/)
+[vux组件库](https://vux.li/#/)
+[Vue webpack](http://vuejs-templates.github.io/webpack/)
+[vue-loader](http://vuejs.github.io/vue-loader)
+[webpack](https://webpack.js.org/)
+[evemit事件管理器](https://github.com/Nicolab/evemit)
+[zepto](https://github.com/victorisildur/zepto-webpack)
+
+
+
+

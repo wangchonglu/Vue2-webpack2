@@ -3,6 +3,7 @@ dist/
 selenium-debug.log
 test/unit/coverage
 test/e2e/reports
+node_modules/
 
 # IDEA
 .idea
@@ -13,7 +14,6 @@ test/e2e/reports
 
 # Log
 npm-debug.*
-
 
 # Node
 node_modules
