@@ -1,0 +1,19 @@
+# dev
+dist/
+selenium-debug.log
+test/unit/coverage
+test/e2e/reports
+
+# IDEA
+.idea
+*.iml
+
+# Mac
+.DS_Store
+
+# Log
+npm-debug.*
+
+
+# Node
+node_modules
