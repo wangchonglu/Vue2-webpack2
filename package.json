@@ -1,5 +1,5 @@
 {
-  "name": "vue2+webpack2 project",
+  "name": "vue2_webpack2_project",
   "version": "1.0.0",
   "description": "vue2+webpack2 project",
   "author": "chonglu.wang <925030338@qq.com>",
@@ -63,5 +63,8 @@
   "engines": {
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
-  }
+  },
+  "main": "src/main.js",
+  "repository": "https://github.com/wangchonglu/Vue2-webpack2.git",
+  "license": "MIT"
 }
