@@ -31,7 +31,6 @@ project
   │  │  └─ BaseComponent  组件基类
   │  │  └─ BaseDialog     模态窗口基类
   │  │  └─ BasePage       普通窗口基类
-  │  │  └─ Filters        全局过滤器
   │  ├─ toolBus           工具模块
   │  │  └─ Http           http请求封装类
   │  │  └─ ...
