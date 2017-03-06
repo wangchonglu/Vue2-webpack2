@@ -79,9 +79,9 @@
            })
         },
         openLoading:function(){
-            window.EM.emit('loading.show') // 弹出loading框
+            window.EM.$emit('loading.show') // 弹出loading框
             window.setTimeout(function(){
-                  window.EM.emit('loading.hide')// 隐藏loading框
+                  window.EM.$emit('loading.hide')// 隐藏loading框
             },3000)
         },
         sendAjax:function(){

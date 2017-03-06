@@ -1788,10 +1788,6 @@ etag@~1.8.0:
   version "1.8.0"
   resolved "http://registry.npm.taobao.org/etag/download/etag-1.8.0.tgz#6f631aef336d6c46362b51764044ce216be3c051"
 
-evemit@^1.0.2:
-  version "1.0.2"
-  resolved "http://registry.npm.taobao.org/evemit/download/evemit-1.0.2.tgz#51600ffc78a3ffdd5fe916abc10529f89c8a73b9"
-
 event-emitter@~0.3.4:
   version "0.3.4"
   resolved "http://registry.npm.taobao.org/event-emitter/download/event-emitter-0.3.4.tgz#8d63ddfb4cfe1fae3b32ca265c4c720222080bb5"

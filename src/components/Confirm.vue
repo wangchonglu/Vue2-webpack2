@@ -61,12 +61,12 @@
         },
         created:function () {
             var _self = this
-            window.EM.on('confirm.show',function(msg,callback){
+            window.EM.$on('confirm.show',function(msg,callback){
                 _self.msg = msg
                 _self.callback = callback
                 _self.show = true
             })
-            window.EM.on('confirm.hide',function(){
+            window.EM.$on('confirm.hide',function(){
                 _self.show = false
             })
         },

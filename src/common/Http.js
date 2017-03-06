@@ -27,9 +27,9 @@ export default {
                 data.success(v)
             }
         }
-        window.EM.emit('loading.show') // 弹出loading框
+        window.EM.$emit('loading.show') // 弹出loading框
         options.complete = function (XMLHttpRequest, textStatus) {
-            window.EM.emit('loading.hide')// 隐藏loading框
+            window.EM.$emit('loading.hide')// 隐藏loading框
         }
         options.error = function (xhr, exception) {
             if (xhr.status === '400') {

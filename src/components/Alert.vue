@@ -49,12 +49,12 @@
         },
         created:function () {
             var _self = this
-            window.EM.on('alert.show',function(msg,callback){
+            window.EM.$on('alert.show',function(msg,callback){
                 _self.msg = msg
                 _self.callback = callback
                 _self.show = true
             })
-            window.EM.on('alert.hide',function(){
+            window.EM.$on('alert.hide',function(){
                 _self.show = false
             })
         },

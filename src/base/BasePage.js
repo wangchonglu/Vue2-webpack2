@@ -31,7 +31,7 @@ export default {
           }
          */
         openDialog: function (params) {
-            window.EM.emit('dialog.open', params)
+            window.EM.$emit('dialog.open', params)
         }
     }
 }

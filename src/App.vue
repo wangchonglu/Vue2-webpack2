@@ -18,6 +18,9 @@
         <!-- alert 弹窗 -->
         <alert></alert>
 
+        <!-- confirm 弹窗 -->
+        <confirm></confirm>
+
         <!-- 模态窗体 -->
         <dialogs></dialogs>
 

@@ -17,10 +17,10 @@
             },
             created:function(){
                 var _self = this
-                window.EM.on('dialog.open',function(params){
+                window.EM.$on('dialog.open',function(params){
                    _self.getDialog(params)
                 })
-                window.EM.on('dialog.close',function(url){
+                window.EM.$on('dialog.close',function(url){
                    url = url.replace(/\//g,'_')
                    for(let i in _self.dialogs){
                         if(_self.dialogs[i]==url){
