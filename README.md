@@ -25,7 +25,6 @@ npm run build
 ###### [Vue webpack](http://vuejs-templates.github.io/webpack/)
 ###### [vue-loader](http://vuejs.github.io/vue-loader)
 ###### [webpack](https://webpack.js.org/)
-###### [evemit事件管理器](https://github.com/Nicolab/evemit)
 ###### [zepto](https://github.com/victorisildur/zepto-webpack)
 ###### [Yarn](https://yarnpkg.com/en/docs/usage)
 
