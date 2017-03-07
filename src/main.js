@@ -1,4 +1,6 @@
 import Vue from 'vue'
+require('./extends/filters')
+require('./extends/directives')
 import router from './router/routers.js'
 import App from './App.vue'
 require('assets/css/comm.less')

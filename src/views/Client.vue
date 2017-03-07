@@ -37,7 +37,7 @@
 
 <script>
   import BasePage from 'src/base/BasePage'
-  import Http from '../common/Http'
+  import Http from '../toolBus/Http'
   import {
     Tab,
     TabItem,
