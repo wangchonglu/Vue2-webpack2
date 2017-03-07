@@ -28,8 +28,9 @@
       </div>
 
       过滤器使用
-      原值：{{testDate}}
-      过滤后：{{testDate | datetime}}
+      原值：{{testDate}}<br>
+      过滤后1：{{testDate | datetime}}<br>
+      过滤后2：{{testDate | datetime('yyyy-MM-dd')}}
 
       <div class="block-content nav">
         <a><span></span></a>
