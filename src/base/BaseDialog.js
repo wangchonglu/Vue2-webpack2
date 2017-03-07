@@ -12,7 +12,7 @@ export default {
     },
     methods: {
         close: function () {
-            window.EM.$emit('dialog.close', this.$options.name)
+            window.eventBus.$emit('dialog.close', this.$options.name)
         }
     }
 }

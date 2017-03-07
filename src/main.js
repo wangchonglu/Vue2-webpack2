@@ -6,15 +6,15 @@ import App from './App.vue'
 require('assets/css/comm.less')
 
 // 实例全局事件管理器
-window.EM = new Vue()
+window.eventBus = new Vue()
 
 //重写window.alert
 window.alert = function (title, callback) {
-    window.EM.$emit('alert.show', title, callback)
+    window.eventBus.$emit('alert.show', title, callback)
 }
 //重写window.confirm
 window.confirm = function (title, callback) {
-    window.EM.$emit('confirm.show', title, callback)
+    window.eventBus.$emit('confirm.show', title, callback)
 }
 
 new Vue({

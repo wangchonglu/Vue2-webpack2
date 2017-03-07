@@ -24,11 +24,11 @@ z-index: 10000;
         },
         created:function(){
             var _self = this
-            window.EM.$on('loading.show',function(msg){
+            window.eventBus.$on('loading.show',function(msg){
                 _self.msg = msg
                 _self.show = true
             })
-            window.EM.$on('loading.hide',function(){
+            window.eventBus.$on('loading.hide',function(){
                 _self.show = false
             })
         }
