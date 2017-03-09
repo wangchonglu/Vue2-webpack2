@@ -10,17 +10,19 @@ window.eventBus = new Vue()
 
 //重写window.alert
 window.alert = function (title, callback) {
-    window.eventBus.$emit('alert.show', title, callback)
+  window.eventBus.$emit('alert.show', title, callback)
 }
 //重写window.confirm
 window.confirm = function (title, callback) {
-    window.eventBus.$emit('confirm.show', title, callback)
+  window.eventBus.$emit('confirm.show', title, callback)
 }
 
+import store from './store'
 new Vue({
-    el: '#app',
-    router,
-    components: {
-        App
-    }
+  el: '#app',
+  store,
+  router,
+  components: {
+    App
+  }
 })

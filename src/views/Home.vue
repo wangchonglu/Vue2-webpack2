@@ -32,6 +32,8 @@
       过滤后1：{{testDate | datetime}}<br>
       过滤后2：{{testDate | datetime('yyyy-MM-dd')}}
 
+      <br><br>VUEX调用<br>
+      {{theamList}}
       <div class="block-content nav">
         <a><span></span></a>
         <a><span></span></a>
@@ -48,10 +50,11 @@
   </div>
 </template>
 <script>
+  import {mapGetters} from 'vuex'
   import BasePage from 'src/base/BasePage'
   import Flexbox from 'vux-components/flexbox/flexbox'
   import FlexboxItem from 'vux-components/flexbox/flexbox-item'
-  import Http from '../toolBus/Http'
+  import userApi from '../api/user'
   export default {
     mixins: [ BasePage ],
     name: 'Client',
@@ -63,6 +66,9 @@
     },
     mounted: function () {
 
+    },
+    computed: {
+      ...mapGetters({ theamList: 'getTheamList' })
     },
     methods: {
       openAlert: function () {
@@ -95,15 +101,7 @@
         }, 3000)
       },
       sendAjax: function () {
-        Http.ajax({
-          action: 'services/get1',
-          success: function (data) {
-            //todo
-          },
-          error: function () {
-            //todo
-          }
-        })
+        userApi.getUserInfo(1)
       }
     }
   }
