@@ -1,5 +1,5 @@
 export default {
-  props: ['params'],
+  props: [],
   replace: true,
   vue: null,
   data: function () {

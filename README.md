@@ -1,4 +1,4 @@
-# Vue2 + webpack2 + Yarn 基础项目框架
+# Vue2 + Vuex + webpack2 + Yarn 基础项目框架
 
 本项目使用yarn替换传统的npm对包进行管理，yarn可以默认对依赖包锁定初次安装时对版本，解决传统方式下js包默认升级造成对依赖包版本不兼容对问题
 
@@ -24,8 +24,10 @@ npm run build
 ```
 project
   ├─ build      webpack各环境配置文件
-  ├─ config     全局环境配置
+  ├─ config     环境配置
   ├─ src        项目源码
+  │  ├─ api     接口封装
+  │  │  └─ user 用户模块相关接口
   │  ├─ assets  静态资源，全局css、image
   │  ├─ base    基础类
   │  │  └─ BaseComponent  组件基类
@@ -56,6 +58,14 @@ project
   │  │  ├─ PageLoad       页面路由加载处理
   │  │  └─ routers        路由配置
   │  │  └─ ...
+  │  └─ store             vuex状态机 与 元数据
+  │  │  ├─ modules        各个模块相关的状态封装
+  │  │  └─ actions        vuex actions
+  │  │  └─ getters        vuex getters
+  │  │  └─ index          vuex引用入口
+  │  │  └─ meta-data      全局元数据
+  │  │  └─ mutation-types vuex mutatuion types
+  │  │  └─ mutations      vuex mutatuion
   │  └─ views             业务模块
   │  │  ├─ dialogs        默认存放弹框业务页面
   │  │  └─ **.vue         业务模块页面

@@ -217,7 +217,9 @@
 </style>
 <script>
     import { Popup } from 'vux'
+    import BaseComponent from '../src/base/BaseComponent'
     export default{
+      mixins: [ BaseComponent ],
         data(){
             return{
                 show:false,

@@ -139,7 +139,9 @@
     }
 </style>
 <script>
-    export default{
+  import BaseComponent from '../src/base/BaseComponent'
+  export default{
+    mixins: [ BaseComponent ],
         data(){
             return{
 
