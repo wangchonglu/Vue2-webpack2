@@ -15,7 +15,7 @@
   }
 </style>
 <script>
-  import BaseComponent from '../src/base/BaseComponent'
+  import BaseComponent from '../base/BaseComponent'
   export default{
     mixins: [ BaseComponent ],
     data(){

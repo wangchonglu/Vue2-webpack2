@@ -14,7 +14,7 @@
 </style>
 
 <script>
-  import BaseComponent from '../src/base/BaseComponent'
+  import BaseComponent from '../base/BaseComponent'
   import {XDialog} from 'vux'
   export default {
     mixins: [ BaseComponent ],

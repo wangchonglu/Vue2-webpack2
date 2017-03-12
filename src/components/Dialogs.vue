@@ -8,7 +8,7 @@
 </style>
 <script>
     import Vue from 'vue'
-    import BasePage from 'src/base/BaseDialog'
+    import BasePage from '../base/BaseDialog'
     export default{
             data(){
                 return{
